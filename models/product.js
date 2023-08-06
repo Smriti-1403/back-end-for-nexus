@@ -10,6 +10,9 @@ const productSchema = new mongoose.Schema({
   code: {
     type: String,
   },
+  price: {
+    type: Number,
+  },
 });
 
 module.exports = mongoose.model("Product", productSchema);
